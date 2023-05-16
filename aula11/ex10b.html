@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localidade</title>
+</head>
+<body>
+    <h1>Sistema de cadastro</h1>
+    Qual cidade você nasceu:
+    <input type="local" name="txtcid" id="txtcid">
+    <input type="button" value="Verificar" onclick="identificar()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function identificar() {
+            var txtc = document.getElementById('txtcid')
+            var res = document.getElementById('res')
+            var cid = (txtc.value)
+            res.innerHTML = `<p>Que legal,você é Fortalezense!</p>`
+            if (cid == 'Fortaleza') {
+                res.innerHTML += `<p>Nós tambem somos Fortalezenses!</p>`
+            }else {
+                res.innerHTML = `<p>Há que pena,a vaga seria apenas pra quem mora em Fortaleza</p>`
+            }
+        }
+    </script>
+
+</body>
+</html>
