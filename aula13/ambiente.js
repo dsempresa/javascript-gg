@@ -1,5 +1,5 @@
-var c = 20
-while (c > 6) {
+var c = 1
+while (c < 9) {
     console.log(`passo ${c}`)
     c++
 }
