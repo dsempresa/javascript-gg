@@ -1,0 +1,39 @@
+body {
+    background-color: rgba(72, 72, 246, 0.763);
+    color: white;
+    font: 16pt arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(50, 50, 50, 0.489);
+}
+
+input {
+    border-radius: 5px;
+    height: 20px;
+}
+
+#botao {
+    background-color: rgb(28, 76, 190);
+    width: 100px;
+    height: 20px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: larger;
+    font-style: italic;
+}
